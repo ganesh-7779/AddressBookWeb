@@ -8,10 +8,10 @@ html body {
     margin: 0px ;
     height: 100%;
   }
-  
+
   .header {
-    padding: 15px 0px 15px 50px;
-    background-color: #faf6f662;
+    padding: 15px 0px 15px 20px;
+    background-color: #f7f7f7;;
     display: flex;
     justify-content: flex-start;
   }
@@ -21,4 +21,31 @@ html body {
     flex-direction: row;
     border: 1px solid green;
   }
- 
+ .form-content{
+   min-height: calc(100% - 80px);
+   background-color: #f7f7f7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 0px solid green;
+ }
+ .form{
+  width: 70%;
+  padding: 40px 15px;
+  background: #f7f7f7;
+  box-shadow: 1px 3px 6px #00000029;
+  border: 2px solid #f7f7f7;
+  display: flex;
+  border-radius: 4px;
+  opacity: 1;
+ }
+ .form-head{
+   width: 100%;
+   background:cornflowerblue;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: center;
+   padding: 10px 10px;
+   text-transform:uppercase;
+ }
