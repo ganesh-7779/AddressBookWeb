@@ -1,0 +1,18 @@
+html body {
+    margin: 0px ;
+    height: 100%;
+  }
+  
+  .header {
+    padding: 15px 0px 15px 50px;
+    background-color: #faf6f662;
+    display: flex;
+    justify-content: flex-start;
+  }
+   
+  .logo-content {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+  }
+ 
